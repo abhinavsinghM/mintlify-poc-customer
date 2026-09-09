@@ -1,0 +1,58 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Magnus Help Center",
+  "description": "How to work with Magnus — asking questions, getting things done, and understanding your answers.",
+  "colors": {
+    "primary": "#166E3F",
+    "light": "#26BD6C",
+    "dark": "#166E3F"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "index",
+          "getting-started"
+        ]
+      },
+      {
+        "group": "What Magnus Can Do",
+        "pages": [
+          "capabilities/knowledge-search",
+          "capabilities/hr-and-people",
+          "capabilities/salesforce-and-crm",
+          "capabilities/connected-tools"
+        ]
+      },
+      {
+        "group": "Working With Magnus",
+        "pages": [
+          "collaboration/memory",
+          "collaboration/getting-things-done",
+          "collaboration/files-and-documents",
+          "collaboration/when-magnus-asks-you"
+        ]
+      },
+      {
+        "group": "Good to Know",
+        "pages": [
+          "help/understanding-answers",
+          "help/privacy-and-data",
+          "help/troubleshooting",
+          "faq"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}
